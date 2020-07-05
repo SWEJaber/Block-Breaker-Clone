@@ -13,4 +13,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./Paddle.js":"y3qy","./Brick.js":"OAFI","./Ball.js":"k3rO","./InputHandler.js":"iqZO"}],"Focm":[function(require,module,exports) {
 "use strict";var e=t(require("./JS/Game.js"));function t(e){return e&&e.__esModule?e:{default:e}}var r=800,a=600,n=document.getElementById("gameScreen"),u=n.getContext("2d"),d=new e.default(r,a),i=0;function m(e){var t=e-i;i=e,u.clearRect(0,0,r,a),d.update(t),d.draw(u),requestAnimationFrame(m)}requestAnimationFrame(m);
 },{"./JS/Game.js":"g3iR"}]},{},["Focm"], null)
-//# sourceMappingURL=/Canvas%20Project.838f8b3e.js.map
+//# sourceMappingURL=Canvas%20Project.838f8b3e.js.map
